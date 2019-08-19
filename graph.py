@@ -25,7 +25,7 @@ class Node(object):
 class Graph(object):
     def __init__(self, values_list=[]):
         self.nodes = set()
-        self.edges = {}
+        self.adjacencies_list = {}
 
         for value in values_list:
             new_node = Node(value)
@@ -33,6 +33,14 @@ class Graph(object):
 
     def __repr__(self):
         return "Graph({0})".format(self.nodes)
+
+    @property
+    def edges(self):
+        edges_list = []
+        for node in self.adjacencies_list:
+            for neighbor in self.adjacencies_list[node]:
+                edges_list.append((node, neighbor))
+        return edges_list
 
     def add_node(self, value):
         new_node = Node(value)
@@ -55,9 +63,9 @@ class Graph(object):
         edge_1.add_neighbor(edge_2)
         
         try:
-            self.edges[edge_1].add(edge_2)
+            self.adjacencies_list[edge_1].add(edge_2)
         except KeyError:
-            self.edges[edge_1] = set([edge_2])
+            self.adjacencies_list[edge_1] = set([edge_2])
 
         if bidirectional:
             self.add_edge((value_2, value_1), bidirectional=False)
