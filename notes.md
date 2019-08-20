@@ -63,12 +63,16 @@ Searches for vocabulary words implementations:
 	- BK Trees (finding near-matches)
 
 ## Links
+	- https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708
+	- https://medium.com/related-works-inc/building-an-autosuggest-corpus-nlp-d21b0f25c31b
+	- https://medium.com/related-works-inc/autosuggest-retrieval-data-structures-algorithms-3a902c74ffc8
 	- https://www.futurice.com/blog/data-structures-for-fast-autocomplete/
 	- http://blog.notdot.net/2007/4/Damn-Cool-Algorithms-Part-1-BK-Trees
 	- http://blog.notdot.net/2010/07/Damn-Cool-Algorithms-Levenshtein-Automata
 	- http://sujitpal.blogspot.com/2007/02/three-autocomplete-implementations.html
 	- http://dhruvbird.blogspot.com/2010/09/very-fast-approach-to-search.html
 	- https://www.youtube.com/watch?v=-urNrIAQnNo
+	- https://medium.com/@giokincade
 
 ## Similar projects
 	- https://github.com/weihesdlegend/Autocomplete-System
