@@ -18,7 +18,7 @@ Searches for vocabulary words implementations:
 	a prefix in an ordered  vocabulary is pretty fast with the 
 	help of a binary search algorithm.
 
-	-> [Prefix tree] Typically many vocabulary words begin with 
+	-> [Prefix tree - TRie] Typically many vocabulary words begin with 
 	the same prefix (broccoli, broker, brother and many other 
 	words all start with bro-). It seems wasteful to have to 
 	store the common prefix separately for each word.
@@ -61,6 +61,7 @@ Searches for vocabulary words implementations:
 	- Soundex (sounds familiar)
 	- Levenshtein distance (Steps to reach another word)
 	- BK Trees (finding near-matches)
+	- Markov Chain (predict next word based on previous words)
 
 ## Links
 	- https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708
@@ -71,11 +72,26 @@ Searches for vocabulary words implementations:
 	- http://blog.notdot.net/2010/07/Damn-Cool-Algorithms-Levenshtein-Automata
 	- http://sujitpal.blogspot.com/2007/02/three-autocomplete-implementations.html
 	- http://dhruvbird.blogspot.com/2010/09/very-fast-approach-to-search.html
-	- https://www.youtube.com/watch?v=-urNrIAQnNo
-	- https://medium.com/@giokincade
+	- [Trie]				https://www.youtube.com/watch?v=-urNrIAQnNo
+	- [AUTOSUGGEST]			https://medium.com/@giokincade
+	- [Peter Norvig]		https://www.youtube.com/watch?v=yvDCzhbjYWs
+	- [SPELL CORRECTION]	http://norvig.com/spell-correct.html
+	- [WORD PREDICTION] 	https://yurichev.com/blog/markov/
+	- [SPELL CORRECTION] 	https://en.wikipedia.org/wiki/Fat-finger_error
+	- [Ternary Search Tree]	https://lukaszwrobel.pl/blog/ternary-search-tree/
+	- [Ternary Search Tree]	https://github.com/djtrack16/tst/blob/master/ternarysearchtree.py
+	- [Ternary Search Tree]	https://gist.github.com/dpapathanasiou/58919e4813e05850e201d21329d0139f
+	- [Treap]				https://gist.github.com/IvanIsCoding/0abbe10dc8dc7cf330e410cf49875593
+	- [Treap]				https://gist.github.com/IvanIsCoding/0abbe10dc8dc7cf330e410cf49875593
+	- [Treap]				https://gist.github.com/irachex/3922705
+	- [Treap]				http://www.grantjenks.com/wiki/random/python_treap_implementation
+	- [Treap]				https://pypi.org/project/treap/
+
 
 ## Similar projects
 	- https://github.com/weihesdlegend/Autocomplete-System
 	- https://github.com/npgall/concurrent-trees
 	- https://github.com/vivekn/autocomplete
 	- https://github.com/rodricios/autocomplete
+	- https://github.com/rrenaud/Gibberish-Detector
+	- https://github.com/ashwinmj/word-prediction
