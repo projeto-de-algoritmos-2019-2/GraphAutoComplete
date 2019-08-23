@@ -64,6 +64,8 @@ Searches for vocabulary words implementations:
 	- Markov Chain (predict next word based on previous words)
 
 ## Links
+
+	- [Autocomplete] https://zepworks.com/posts/you-autocomplete-me/
 	- https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708
 	- https://medium.com/related-works-inc/building-an-autosuggest-corpus-nlp-d21b0f25c31b
 	- https://medium.com/related-works-inc/autosuggest-retrieval-data-structures-algorithms-3a902c74ffc8
@@ -86,6 +88,7 @@ Searches for vocabulary words implementations:
 	- [Treap]				https://gist.github.com/irachex/3922705
 	- [Treap]				http://www.grantjenks.com/wiki/random/python_treap_implementation
 	- [Treap]				https://pypi.org/project/treap/
+	- https://medium.com/@prefixyteam
 
 
 ## Similar projects
@@ -95,3 +98,5 @@ Searches for vocabulary words implementations:
 	- https://github.com/rodricios/autocomplete
 	- https://github.com/rrenaud/Gibberish-Detector
 	- https://github.com/ashwinmj/word-prediction
+	- https://gist.github.com/prefixycode
+	- https://github.com/prefixy/prefixy
